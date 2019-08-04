@@ -1,0 +1,246 @@
+body {
+    overflow-x: hidden;
+}
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(27,37,48,.85);
+    position: sticky;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    color: rgba(242,244,246,.9);
+    display: block;
+    box-sizing: border-box;
+    text-size-adjust: 100%;
+    font-family: Amazon Ember Regular,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    cursor: default;
+    font-size: 17px;
+    line-height: 24px;
+    background-image: -webkit-linear-gradient(top,#1b2530,rgba(27,37,48,.85));
+    background-image: -o-linear-gradient(top,#1b2530 0,rgba(27,37,48,.85) 100%);
+    background-image: linear-gradient(180deg,#1b2530 0,rgba(27,37,48,.85));
+    background-repeat: repeat-x;
+}
+.divimg {
+    height: 60px;
+    width: 180px;
+    margin-left: 15px;
+    margin-top: 12px;
+    float: left;
+}
+.divimg img {
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 130px;
+    height: 36px;
+    top: 5px
+}
+.login {
+    height: 40px;
+    width: 150px;
+    float: right;
+     margin-top: 12px;
+    margin-right:15px;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15px;
+}
+.login a {
+     font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: none;
+    color: rgba(242,244,246,.9);
+}
+.Welcome {
+    height: 490px;
+    width: 100%;
+    background-image: url(back.jfif);
+    box-shadow: inset 700px 0px 150px #000000;
+}
+.Entertainment {
+    height: 450px;
+    width: 100%;
+    background-image: url(sec.jfif);
+    box-shadow: inset -860px 150px 150px #000000;
+}
+.Membership {
+    height: 450px;
+    width: 100%;
+    background-image: url(5cdb057a021b4c54f5171966-750-563.jpg);
+    box-shadow: inset 900px 20px 150px #000000;
+    background-size: 50% 100%;
+}
+.stick { 
+    height: 500px;
+    width: 100%;
+    background-image:url(513q9q7JmGL._SX425_.jpg);
+    background-size: 50% 100%;
+     box-shadow: inset -660px 0px  70px #000000;
+}
+.items{
+    height: 450px;
+    width: 100%;
+}
+.Family {
+    height: 450px;
+    width: 100%;
+    background-image: url(IN-kids-30Jan._CB1517304519_SY1200_FMJPG_.jpg);
+    background-size: 100% 100%;
+}
+.footer {
+    height: 150px;
+    width: 100%;
+    background-color: #222;
+}
+.tag {
+    height: 60px;
+    width: 550px;
+    margin-left: 4%;
+    margin-top: 3%;
+    float: left;
+    color: white;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 42px;
+}
+.text {
+    height: 100px;
+    width: 550px;
+    margin-left: 4%;
+    color: white;
+    font-weight: 0;
+    font-family: sans-serif;
+    font-size: 21px;
+    line-height: 27px;
+    margin-top: 35px;
+    padding-top: 35px;
+}
+.btnu {
+    height: 50px;
+    width: 250px;
+    background-color:#1B91B8;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    margin-left: 4%;
+}
+.para {
+    font-family: sans-serif;
+    margin-left: 4%;
+    color: white;
+    line-height: 40px;
+    font-size: 14px;
+}
+.para2 { 
+    color: white;
+    font-family: Comic Sans MS;
+    margin-top: -7px;
+    font-size: 20px;
+    margin-left: 9%;
+}
+.tag3 {
+    height: 60px;
+    width: 650px;
+    margin-left: 54%;
+    margin-top: 5%;
+    float: left;
+    color: white;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 42px;
+}
+.text2 {
+     height: 100px;
+    width: 550px;
+    margin-left: 54%;
+    color: white;
+    font-weight: 0;
+    font-family: sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+    margin-top: 35px;
+    padding-top: 35px;
+}
+.btnu2 {
+    height: 50px;
+    width: 250px;
+    background-color:#1B91B8;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    margin-left: 54%;
+    margin-top: 7%;
+}
+.list {
+    height: 50px;
+    width: 33%;
+    margin-top: -1%;
+    margin-left: 15%;
+    float: left;
+}
+.end {
+     height: 50px;
+    width: 35%;
+    margin-top: -1%;
+    margin-right: 16%;
+    float: right;
+}
+.end p {
+    color: grey;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.list ul{
+    list-style: none;
+}
+.list ul li {
+    display: inline-block;
+}
+.list ul li a {
+    color: #0f79af;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.contain {
+    height: 99%;
+    width: 99%;
+}
+.left {
+    height: 98%;
+    width: 32%;
+    display: inline-block;
+    align-content: center;
+}
+.center {
+    height: 98%;
+    width: 32%;
+    display: inline-block;
+}
+.right {
+    height: 98%;
+    width: 33%;
+    display: inline-block;
+}
+.image img {
+    margin-left: 9%;
+    height: 60%;
+    width: 70%;
+}
