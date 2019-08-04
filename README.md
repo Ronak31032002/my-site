@@ -1,3 +1,3 @@
-# my-site
+# mysite
 
 File is live
